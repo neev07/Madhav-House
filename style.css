@@ -1,0 +1,291 @@
+/* TEXT SELECTORS */
+
+/* This is allot Montserrat to both body as well as h1 and we can use as many selectors we want... */
+
+body, h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h2{
+  font-family: "Montserrat-bold";
+}
+
+h3 {
+  size: 1.5rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: "Montserrat-bold";
+}
+
+/* CLASS SELECTORS */
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+
+/*
+If we say h1.title{color:red;} without space between two selectors this means that
+every h1 inside the class title will have a colour of red... */
+
+.download {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone_img {
+  width: 60%;
+  position: absolute;
+  right: 100px;
+  top: -60px;
+  padding-left: 0;
+}
+
+.row {
+  text-align: center;
+}
+
+.photoo{
+  position: relative;
+  right: 300px;
+}
+
+/*
+#features .icon{
+  color: red;
+}
+
+The line giving more specific instructions will overwrite the line giving less instructions.
+For eg: the above line will overwrite the line below, as it has less specific instructions.
+This also means giving red colour to the icon class inside the features id.*/
+
+.icon {
+  margin: 40px -15px 20px -15px;
+  padding-top: 10px;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.p {
+  height: 3.5rem;
+  color: #8f8f8f;
+  margin-bottom: 50px;
+}
+.test_img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.press_logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.h11{
+  height:100px;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  color:rgb(0, 0, 0);
+}
+
+/*
+if we write
+h1{
+  color:red;
+  color:green;
+}
+the colour of the h1 will be green, as the last css line will be outputed... */
+
+.card-header{
+  font-family: "Montserrat-bold";
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.hm{
+  width:75%;
+  position: relative;
+  left: 265px;
+  top: 5px;
+  border: 7px solid black;
+}
+
+.hm_t{
+  top:150px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+.prefect_text{
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+    top: 10px
+
+}
+
+.hm_text{
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+
+}
+.prefect_head{
+ color: #fff;
+}
+.Sets_Head{
+  color: #fff;
+  position: relative;
+  top: 10px;
+}
+.Sets_Para{
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  top: 10px
+}
+.card-body{
+  font-family: "Montserrat-light";
+}
+
+.pricing_col{
+  padding: 3% 2%;
+}
+
+.true_love{
+  font-family: 'Montserrat', sans-serif;
+  size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.bottom_icon{
+  padding: 20px 10px;
+}
+div.gallery_head{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.gallery {
+  position: relative;
+  padding-top: 20px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.Akash_Speech{
+  padding:25px;
+  color: black;
+}
+
+.Article_head{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Madhav_Desc{
+  top:150px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+
+}
+/* ID SELECTORS */
+
+#title {
+  background-color: rgba(168,24,0,255);
+  text-align: left;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  color: black;
+}
+
+#features{
+  padding-bottom: 1%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  height:100px;
+}
+
+#pricing{
+  padding: 50px;
+  text-align: center;
+  background-color: rgba(168,24,0,255);
+}
+
+#Chetan_Speech{
+  padding: 25px;
+  text-align: center;
+  background-color: rgba(168,24,0,255);
+
+}
+
+#press{
+  background-color: #74c7b8;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #74c7b8;
+  color: #fff;
+}
+/* MEDIA BREAKPOINTS */
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+
+  .iphone_img{
+    position: static;
+    transform: rotate(0);
+  }
+}
